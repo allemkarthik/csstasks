@@ -5,45 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             margin-top: 100px;
-            
         }
-        a{
-            text-size-adjust: 100px;
+        a {
+            font-size: 16px; /* Adjusted font-size instead of text-size-adjust */
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto; /* Center the table horizontally */
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: brown;
+            text-align: center; /* Center the heading */
         }
     </style>
 </head>
 <body>
-    <center>
-        <h1 style="color: brown;">CSS TASKS</h1>
-        <table border="2" cellpadding="20px" cellspacing="10px">
-
+    <h1>CSS TASKS</h1>
+    <table>
+        <thead>
             <tr>
-                <th>days</th> 
-                <th>task1</th>
-                <th>task2</th>
-                <th>task3</th>
-                <th>date</th>
+                <th>Days</th>
+                <th>Task1</th>
+                <th>Task2</th>
+                <th>Task3</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Day 1 CSS</td>
+                <td><a href="./day1/day1.html">Day 1 Link</a></td>
+                <td><a href="./day1/day2.html">Day 1 Task2 Link</a></td>
+                <td>Empty</td>
+                <td class="currentDate">11-08-2024</td> <!-- Manually enter the date here -->
+                <td class="currentTime"></td>
             </tr>
             <tr>
-                
-                <td>day1 css</td>
-                <td><a href="./day1/day1.html">day1 link</a></td>
-                <td><a href="./day1/day2.html">day1 task2 link</a></td>
-                <td>empty</td>
-                <td>date:11-08-2024</td>
+                <td>Day 2 CSS</td>
+                <td><a href="./day2/task1.html">Day 2 Task1</a></td>
+                <td><a href="./day2/task2.html">Day 2 Task2</a></td>
+                <td><a href="./day2/task3.html">Day 2 Task3</a></td>
+                <td class="currentDate">12-08-2024</td> <!-- Manually enter the date here -->
+                <td class="currentTime"></td>
             </tr>
-            <tr>
-                <td>day2 css</td>
-                <td><a href="./day2/task1.html"> day1 task1</a></td>
-                <td><a href="day2/task2.html">day2 task2</a></td>
-                <td><a href="day2/task3.html">day3 task3</a></td>
-                <td>date:12-08-2024 today</td>
+        </tbody>
+    </table>
 
-            </tr>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const time = now.toLocaleTimeString();
+            const timeElements = document.querySelectorAll('.currentTime');
+            timeElements.forEach(element => element.innerText = time);
+        }
 
-        </table>
-    </center>
+        // Update time every second
+        setInterval(updateTime, 1000);
+
+        // Set initial time immediately on page load
+        window.onload = updateTime;
+    </script>
 </body>
 </html>
