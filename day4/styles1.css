@@ -1,0 +1,293 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-evenly;
+    border: 1px black;
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+    
+}
+.navbar ul li a:hover{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.4s ease-in-out;
+}
+.container{
+    position: relative;
+    top: 70px;}
+
+
+.php{
+    
+    background-color: rgb(177, 200, 179);
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    border-radius: 5PX;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 50px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+
+}
+.php:hover,.java:hover,.w3css:hover,.c:hover,.r:hover,.kotiln:hover,.react:hover,.nodejs:hover,.json:hover,.vue:hover,.mysql:hover,.xml:hover,.saas:hover,.icon:hover,.rwd:hover,.graphics:hover,.colors:hover,.git:hover,.matplotlib:hover,.numpy:hover{
+    transform: scale(1.1,1.1);
+}
+button{
+    border-radius: 10px;
+    background-color: rgba(20, 19, 19, 0.482);
+    color: aliceblue;
+    padding: 10px;
+    width: 25%;
+    text-shadow: 2px 2px 2px wheat;
+}
+.php-1{
+    
+   float: right;
+   margin-right: 20px;
+   background-color: rgb(201, 237, 93);
+}
+.java{
+    background-color: rgb(177, 200, 179);
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    border-radius: 5PX;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+}
+.cplus{
+    
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(110, 120, 111);
+ }
+ .w3css{
+    background-color: rgb(35, 194, 200);
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    border-radius: 5PX;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+}
+.boot{
+    
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(74, 63, 63);
+ }
+ .c{
+    background-color: rgba(192, 52, 68, 0.363);
+    width: 40%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .chash{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(192, 161, 37);
+ }
+ h1{
+    text-shadow: 2px 2px 2px crimson;
+ }
+ p{
+    text-shadow: 2px 2px 1px white;
+    font-size: 24px;
+ }
+ .r{
+    background-color: rgba(47, 45, 45, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px rgb(198, 199, 201);
+    transition: all 1s ease-in-out;
+
+ }
+ .kotiln{
+    float: right;
+    margin-right: 40px;
+    background-color: rgb(50, 3, 36);
+    
+
+ }
+ .nodejs{
+    background-color: rgba(29, 56, 49, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .react{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(227, 223, 207);
+ }
+ .json{
+    background-color: rgba(231, 224, 225, 0);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .vue{
+    float: right;
+    margin-right: 40px;
+    background-color: rgb(167, 85, 18);
+    
+
+ }
+ .mysql{
+    background-color: rgba(15, 0, 0, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .xml{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(255, 6, 6);
+ }
+ .saas{
+    background-color: rgba(2, 31, 13, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .icon{
+    float: right;
+    margin-right: 40px;
+    background-color: rgba(245, 152, 245, 0);
+    
+
+ }
+ .rwd{
+    background-color: rgba(168, 28, 143, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .graphics{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(90, 208, 223);
+ }
+ .colors{
+    background-color: rgba(24, 185, 209, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .git{
+    float: right;
+    margin-right: 40px;
+    background-color: rgba(52, 10, 193, 0);
+    
+
+ }
+ .matplotlib{
+    background-color: rgba(72, 35, 40, 0.363);
+    width: 15%;
+    height: 10vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 5px gray;
+    transition: all 1s ease-in-out;
+
+ }
+ .numpy{
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(111, 95, 29);
+ }
+
