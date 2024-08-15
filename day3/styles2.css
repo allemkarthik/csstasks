@@ -1,0 +1,136 @@
+body {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    
+    
+}
+
+.maindiv{
+    justify-content: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 530px;
+    overflow: scroll;
+    
+    
+    
+    
+
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;
+    border: none;
+   
+   
+   
+}
+
+.wb{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+   
+}
+nav{
+    color: green;
+    font-size: 20px ; /* Adjust the size as needed */
+    color: #25D366;
+}
+.icons{
+    word-spacing: 10px;
+    font-size: 18px;
+    
+}
+.ai{
+   padding: 10px;
+   width: auto;
+   height: auto;
+   border: 1px solid grey;
+   background-color: whitesmoke;
+   border: none;
+   border-radius: 15px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-family: none;
+   
+   display: flex;
+  
+   
+
+   
+}
+.ai2{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.con{
+    padding: 2px;
+    word-spacing: 5px;
+    margin-top: 10px;
+}
+.all{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 14px;
+
+    
+   
+}
+.img-gif{
+    border-radius: 50%;
+
+
+    /*          dhoni charts strat  from here */
+}
+.main-container,.main-container2,.main-container3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+       margin-left: 6px;
+       margin-right: 6px;
+    }
+.img-dhoni,.img-virat,.img-kar{
+    border-radius: 50%;
+}
+.dhoni-name,.virat-name,.kar-name{
+    font-weight: 600;
+    font-size: 17px;
+}
+.dhoni-msg,.virat-msg,.kar-msg{
+    font-size: small;
+
+}
+.dhoni-chat,.virat-chat,.kar-chat{
+    display: flex;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.time-right,.time-right2,.time-right3{
+    font-size: small;
+}
+.name-1,.name-2,.name-3{
+    margin-top: 3px;
+}
+
+
