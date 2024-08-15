@@ -28,11 +28,13 @@ body {
 
 
 header{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: auto;
+    width: 300px;
     border: none;
+    background-color:azure;
    
    
    
@@ -57,6 +59,7 @@ nav{
     
 }
 .ai{
+    margin-top: 50px;
    padding: 10px;
    width: auto;
    height: auto;
@@ -134,3 +137,26 @@ p{
 }
 
 
+a{
+    text-decoration: none;
+}
+
+
+/* footer css starts here */
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 280px;
+    padding: 10px;
+    background-color: azure;
+    padding: 10px;
+    /* position: fixed;
+    bottom: 100px; */
+    
+
+}
+.footer-icons{
+    font-size: 30px;
+    word-spacing: 30px;
+}
