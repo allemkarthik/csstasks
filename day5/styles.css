@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-website{
+    position: relative;
+    /* scrollbar-width: none; */
+}
+
+.website-content{
+    overflow: scroll;
+    scrollbar-width: none;
+    
+}
+.header{
+    
+    width: auto;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    
+   
+}
+
+.sub1{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* scrollbar-width: none; */
+    
+
+}
+.sub2{
+    display: flex;
+    justify-items: flex-start;
+}
+.sub3{
+   word-spacing: 20px;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* top: 0; */
+}
+.image-1{
+    position: absolute;
+    
+    top: 400px;
+    right: 300px;
+    
+    
+    
+    font-size: 30px;
+    color: rgb(56, 10, 148);
+    font-weight: 10;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.main-img-con{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 50vh;
+}
+.image-2, .image-3{
+    flex: 1;
+
+}
+.image-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    width: 400px;
+    height: 250px;
+}
+.image-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin-right: 30px;
+}
+.main-img-con2{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 50vh;
+
+}
+.menu-list, .menu-list-img{
+    flex: 1;
+}
+.img2{
+    width: 500px;
+    height: 300px;
+}
+.menu-list-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.footer{
+    background-color: brown;
+    /* justify-content: center;
+     */
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     padding: 10PX;
+     /* margin: 10PX; */
+     height: 30px;
+     scrollbar-width: none;
+}
+.foot-design{
+    text-align: center;
+}
