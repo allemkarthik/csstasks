@@ -22,12 +22,14 @@
 .navbar ul li a:hover{
     background-color: lightcoral;
     padding: 10px;
+    
 }
 
 a{
     text-decoration: none;
     color: aliceblue;
     transition: all 0.4s ease-in-out;
+    /* transform: rotate(20deg); */
 }
 .container{
     position: relative;
